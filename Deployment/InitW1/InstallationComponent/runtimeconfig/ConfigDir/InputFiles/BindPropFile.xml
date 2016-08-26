@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!DOCTYPE SERVICE_MAPPINGS [
+	<!ELEMENT SERVICE_MAPPINGS (SERVICE*)>
+	<!ELEMENT SERVICE (NAME,BEAN_HOME_INTF)>
+	<!ELEMENT NAME (#PCDATA)>
+	<!ELEMENT BEAN_HOME_INTF (#PCDATA)>
+]>
+
+<SERVICE_MAPPINGS>
+	<SERVICE>
+		<NAME>newSport_d6d5ff9d3321f979_2548fa230630bb59(LInstallationComponent.Sport_1;LDomains.d_intClass)</NAME>
+		<BEAN_HOME_INTF>InstallationComponentBEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+	<SERVICE>
+		<NAME>newSport2_1d4fa59747b3b0a3_87c814a4b60142e2(Lcom.tcs.mastercraft.mctype.MasterCraftFile;LDomains.d_intClass)</NAME>
+		<BEAN_HOME_INTF>InstallationComponentBEAN_LOCAL_INTF</BEAN_HOME_INTF>
+	</SERVICE>
+</SERVICE_MAPPINGS>

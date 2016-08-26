@@ -1,0 +1,2 @@
+/home/wls/base_domain/startWebLogic.sh
+export CLASSPATH=/home/wls/wlserver/server/lib/weblogic.jarjava weblogic.Deployer -adminurl t3://127.0.0.1:7001 -username wls -password weblogic@2016 -deploy -name MCWebAppMaster-source /home/InstallationComponent.ear
