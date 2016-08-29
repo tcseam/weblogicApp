@@ -9,3 +9,5 @@ RUN chmod 555 /home/startservers.sh && \
  chmod 777 /home/ConfigDir
 # Expose the http, database and administration ports
 EXPOSE 7001
+# Specify container startup command
+CMD bash ./home/startservers.sh
