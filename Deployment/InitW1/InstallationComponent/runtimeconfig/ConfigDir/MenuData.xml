@@ -11,7 +11,7 @@
 <!ATTLIST menuLink label CDATA #REQUIRED>
 <!ATTLIST menuLink mode CDATA #REQUIRED>
 <!ATTLIST menuLink windowname CDATA #REQUIRED>
-<!ATTLIST menuLink module CDATA #REQUIRED>]><menu><menuGroup key="BankCustomerHibernate_GUI" label="BankCustomerHibernate_GUI">
-    <menuLink label="Create Hibernate"  key="BankCustomerHibernate_GUI.CreateHibernate" windowname="CreateHibernate" module="BankCustomerHibernate_GUI"  mode="DEFAULT"/>
+<!ATTLIST menuLink module CDATA #REQUIRED>]><menu><menuGroup key="InstallationComponentGUI" label="InstallationComponentGUI">
+    <menuLink label="New Sport"  key="InstallationComponentGUI.NewSport" windowname="NewSport" module="InstallationComponentGUI"  mode="DEFAULT"/>
 </menuGroup >
-</menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu></menu>
+</menu>
