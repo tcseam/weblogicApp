@@ -9,6 +9,6 @@ ADD Deployment/InitW1/InstallationComponent/runtimeconfig/ConfigDir /home/Config
 RUN chmod 555 /home/startservers.sh && \
  chmod 777 /home/ConfigDir
 # Expose the http, database and administration ports
-EXPOSE 7001
+EXPOSE 7001 9443
 # Specify container startup command
 CMD bash ./home/startservers.sh
