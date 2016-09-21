@@ -11,6 +11,6 @@ status=1
 sed -i 's/\r//' /home/DSEnv.sh
 bash ./home/DSEnv.sh
 java weblogic.Deployer -adminurl t3://127.0.0.1:7001 -username wls -password weblogic@2016 -deploy -name InstallationComponent -source /home/InstallationComponent.ear
-java weblogic.Deployer -adminurl t3://127.0.0.1:7001 -username wls -password weblogic@2016 -deploy -name InstallationComponent -source /home/InstallationComponent.ear
+#java weblogic.Deployer -adminurl t3://127.0.0.1:7001 -username wls -password weblogic@2016 -deploy -name InstallationComponent -source /home/InstallationComponent.ear
 fi
 done
